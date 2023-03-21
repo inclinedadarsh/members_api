@@ -61,7 +61,7 @@ npm install
 mv .env.example .env
 ```
 
-6. Update the `MONGO_URL` variable in the `.env` file with your MongoDB connection string.
+6. Update the `DATABASE_URL` variable in the `.env` file with your MongoDB connection string.
 7. Start your local MongoDB server if you haven't already done so.
 8. Start the API server using the following command:
 
