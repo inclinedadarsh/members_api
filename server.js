@@ -18,6 +18,7 @@ app.use(express.json());
 
 // Setting up Routes
 const membersRoutes = require("./routes/members");
+app.use("/members", membersRoutes);
 
 // Starting the server
 app.listen(PORT, () => {
